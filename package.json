@@ -1,0 +1,14 @@
+{
+  "name": "dm2geojson",
+  "version": "1.0.0",
+  "description": "DMファイルをGeoJSONに変換",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:10000": "node index.js --scale 10000"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.6.3",
+    "proj4": "^2.12.1"
+  }
+}

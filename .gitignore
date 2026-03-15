@@ -1,0 +1,12 @@
+# 依存パッケージ
+node_modules/
+
+# DMデータ・入力フォルダ
+input/
+
+# 生成されたGeoJSONファイル
+output/
+
+# OS・エディタ
+.DS_Store
+Thumbs.db
