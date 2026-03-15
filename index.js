@@ -3,7 +3,7 @@
 // 使用方法:
 //   node index.js                                    # input/2500/ を読み込み output/ へ出力
 //   node index.js --scale 10000                      # input/10000/ を読み込み output/ へ出力
-//   node index.js --epsg 6674                        # 入力座標系を指定（デフォルト: 6674）
+//   node index.js --epsg 6676                        # 入力座標系を指定（デフォルト: 6676）
 //   node index.js --scale 2500 --input /path/to/dir  # 入力フォルダを直接指定
 // -----------------------------------------
 const path = require('path');
@@ -16,7 +16,7 @@ function parseArgs() {
   const args = process.argv.slice(2);
   let scale = 2500;
   let input = null;
-  let epsg  = 6674;   // デフォルト: JGD2011 / 日本平面直角座標系 第VI系
+  let epsg  = 6676;   // デフォルト: JGD2011 / 日本平面直角座標系 第VIII系
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--scale' && args[i + 1]) {
