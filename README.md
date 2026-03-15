@@ -128,6 +128,14 @@ node index.js --scale 2500 --input /path/to/dm_folder
 
 太字（**6674**）がデフォルト値（JGD2011 第6系）です。
 
+## GeoParquet変換（参考）
+
+[OSGeo4W](https://trac.osgeo.org/osgeo4w/)のogr2ogrを使って、出力したGeoJSONをGeoParquet形式に一括変換できます。
+
+```bat
+for %f in (*.geojson) do ogr2ogr -f Parquet "%~nf.parquet" "%f"
+```
+
 ## ベクトルタイル作成（参考）
 
 出力したGeoJSONから[tippecanoe](https://github.com/felt/tippecanoe)と[pmtiles](https://github.com/protomaps/go-pmtiles)を使ってベクトルタイルを作成できます。
