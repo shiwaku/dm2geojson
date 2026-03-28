@@ -1,4 +1,4 @@
-# dm2geojson
+# city-plan-dm-converter
 
 ## 概要
 
@@ -11,7 +11,7 @@
 ## ディレクトリ構成
 
 ```
-dm2geojson/
+city-plan-dm-converter/
 ├── index.js          # メインスクリプト
 ├── dm.js             # DMファイル読み込みクラス
 ├── dmfiles.js        # DMファイルリスト管理クラス
