@@ -193,7 +193,7 @@ pmtiles convert kihonzu_2500.mbtiles kihonzu_2500.pmtiles
 
 本ツールで変換したデータを使用したプレビューサイトです。
 
-- [city-shizuoka-kihonzu-on-dm](https://github.com/shiwaku/city-shizuoka-kihonzu-on-dm)
+- [city-plan-dm-viewer](https://shiwaku.github.io/city-plan-dm-viewer/)
 
 ## データ出典
 
