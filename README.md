@@ -189,6 +189,12 @@ pmtiles convert kihonzu_10000.mbtiles kihonzu_10000.pmtiles
 pmtiles convert kihonzu_2500.mbtiles kihonzu_2500.pmtiles
 ```
 
+## プレビュー
+
+本ツールで変換したデータを使用したプレビューサイトです。
+
+- [city-shizuoka-kihonzu-on-dm](https://github.com/shiwaku/city-shizuoka-kihonzu-on-dm)
+
 ## データ出典
 
 - 静岡市 都市計画基本図（DMデータ）
